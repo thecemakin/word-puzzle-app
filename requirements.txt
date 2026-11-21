@@ -1,0 +1,16 @@
+# Core web framework
+fastapi[standard]==0.128.8
+
+# Database & migrations
+sqlalchemy[asyncio]==2.0.58
+asyncpg==0.32.0
+alembic==1.16.5
+
+# Auth & security
+pyjwt==2.15.1
+pwdlib[argon2]==0.2.1
+
+# Dev & testing
+pytest==8.4.2
+pytest-asyncio==1.2.0
+ruff==0.17.6
